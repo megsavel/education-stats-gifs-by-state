@@ -5,6 +5,7 @@ library(animation)
 
 
 #Loading datasets
+#Tutorial for fifty_states dataset and drawing the US found at https://gist.github.com/aleszu/276dc7c8765a8d6d037b628ad68a82fb#file-state-map-from-csv-r
 load("fifty_states.rda")
 load("latlongstates.Rda")
 policy <- read.csv("statepolicies.csv", header = TRUE)
